@@ -3,7 +3,7 @@ ID: tiny6571
 LANG: PYTHON3
 TASK: lineup
 """
-fin = open('../lineup.in', 'r')
+fin = open('lineup.in', 'r')
 fout = open('../lineup.out', 'w')
 perfect = ['Beatrice', 'Belinda', 'Bella', 'Bessie', 'Betsy', 'Blue', 'Buttercup', 'Sue']
 check = int(fin.readline())

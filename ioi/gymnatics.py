@@ -3,8 +3,8 @@ ID: tiny6571
 LANG: PYTHON3
 TASK: gymnastics
 """
-fin = open('../gymnastics.in', 'r')
-fout = open('../gymnastics.out', 'w')
+fin = open('gymnastics.in', 'r')
+fout = open('gymnastics.out', 'w')
 data, ans = [], 0
 k, n = fin.readline().split()
 k, n = int(k), int(n)

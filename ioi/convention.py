@@ -3,7 +3,7 @@ ID: tiny6571
 LANG: PYTHON3
 TASK: convention
 """
-fin = open('convention2.in', 'r')
+fin = open('convention.in', 'r')
 fout = open('convention.out', 'w')
 list = [int(i) for i in fin.readline().split()]
 cows, bus, hold = list[0], list[1], list[2]

@@ -3,8 +3,8 @@ ID: tiny6571
 LANG: PYTHON3
 TASK: whereami
 """
-fin = open('../whereami.in', 'r')
-fout = open('../whereami.out', 'w')
+fin = open('whereami.in', 'r')
+fout = open('whereami.out', 'w')
 n = int(fin.readline())
 string = fin.readline()
 for i in range(1, n + 1):
